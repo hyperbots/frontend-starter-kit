@@ -11,7 +11,7 @@
     "url": "git+https://github.com/hyperbots/frontend-starter-kit.git"
   },
   "author": "Adelon Zeta <adelon@hyperbots.co>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/hyperbots/frontend-starter-kit/issues"
   },
