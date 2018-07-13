@@ -10,5 +10,5 @@ module.exports = function() {
       helpers: 'helpers',
       data: 'store'
     }))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('.build'));
 };

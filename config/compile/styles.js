@@ -9,7 +9,7 @@ module.exports = function() {
       includePaths: ['node_modules/bulma/sass']
     }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('dist/styles'));
+    .pipe(gulp.dest('.build/styles'));
 };
 
 // module.exports.dependencies = ['lint:styles'];
