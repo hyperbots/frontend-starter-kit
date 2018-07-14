@@ -1,0 +1,84 @@
+frontend:
+  -
+    default: package--selected
+    id: frontend-basic
+    name: Basic
+    price: 97
+    features:
+      - Cross-browser Support
+      - Responsive
+      - Bootstrap
+  -
+    id: frontend-awesome
+    popular: true
+    name: Awesome
+    price: 187
+    features:
+      - Everything in Basic plus
+      - CSS Animation
+      - CSS Optimization
+      - Framework Option
+  -
+    id: frontend-advanced
+    name: Advanced
+    price: 337
+    features:
+      - Everything in Awesome plus
+      - Javascript Interaction
+      - Development Code
+email:
+  -
+    default: package--selected
+    id: email-basic
+    name: Basic
+    price: 97
+    features:
+      - Cross-browser Support
+      - Responsive
+      - Bootstrap
+  -
+    id: email-awesome
+    popular: false
+    name: Awesome
+    price: 187
+    features:
+      - Everything in Basic plus
+      - CSS Animation
+      - CSS Optimization
+      - Framework Option
+  -
+    id: email-advanced
+    name: Advanced
+    price: 337
+    features:
+      - Everything in Awesome plus
+      - Javascript Interaction
+      - Development Code
+wordpress:
+  -
+    default: package--selected
+    id: wordpress-basic
+    name: Basic
+    price: 247
+    features:
+      - Cross-browser Support
+      - Responsive
+      - Bootstrap
+  -
+    id: wordpress-awesome
+    popular: false
+    name: Awesome
+    price: 337
+    features:
+      - Everything in Basic plus
+      - CSS Animation
+      - CSS Optimization
+      - Framework Option
+  -
+    id: wordpress-advanced
+    name: Advanced
+    price: 487
+    features:
+      - Everything in Awesome plus
+      - Javascript Interaction
+      - Development Code
