@@ -17,13 +17,27 @@
   },
   "homepage": "https://github.com/hyperbots/frontend-starter-kit#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "browserify-shim": "^3.8.14",
     "gulp": "^3.9.1",
+    "gulp-eslint": "^5.0.0",
     "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-task-loader": "^1.5.0",
-    "panini": "^1.6.2"
+    "panini": "^1.6.2",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "bulma": "^0.7.1"
+  },
+  "browserify-shim": {},
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }

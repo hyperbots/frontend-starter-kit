@@ -1,5 +1,6 @@
 // Base Module
+@import "variables";
 
 body {
-  background: red;
+  background: $primary;
 }

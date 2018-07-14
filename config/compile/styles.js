@@ -12,4 +12,4 @@ module.exports = function() {
     .pipe(gulp.dest('.build/styles'));
 };
 
-// module.exports.dependencies = ['lint:styles'];
+module.exports.dependencies = ['lint:styles'];

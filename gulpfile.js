@@ -3,5 +3,7 @@ var loadTasks = require('gulp-task-loader')('config');
 
 gulp.task('default', [
   'compile:html',
-  'compile:styles'
+  'compile:styles',
+  'compile:scripts',
+  'compile:assets'
 ]);
