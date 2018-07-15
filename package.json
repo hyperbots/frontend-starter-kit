@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "gulp",
-    "dev": "gulp serve"
+    "dev": "gulp serve",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,16 @@
     "browserify": "^16.2.2",
     "browserify-shim": "^3.8.14",
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-defer": "^1.1.2",
     "gulp-eslint": "^5.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-purifycss": "^0.2.0",
     "gulp-sass": "^4.0.1",
     "gulp-sass-lint": "^1.4.0",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-css-comments": "^2.0.0",
     "gulp-task-loader": "^1.5.0",
     "panini": "^1.6.2",
     "vinyl-source-stream": "^2.0.0"

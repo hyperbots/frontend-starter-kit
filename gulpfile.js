@@ -7,3 +7,10 @@ gulp.task('default', [
   'compile:scripts',
   'compile:assets'
 ]);
+
+gulp.task('build', [
+  'minify:html',
+  'minify:scripts',
+  'minify:styles',
+  'minify:assets'
+]);
