@@ -18,4 +18,4 @@ module.exports = function() {
     .pipe(gulp.dest('dist/styles'));
 };
 
-module.exports.dependencies = ['minify:html'];
+module.exports.dependencies = ['minify:scripts'];

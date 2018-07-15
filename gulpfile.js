@@ -12,5 +12,6 @@ gulp.task('build', [
   'minify:html',
   'minify:scripts',
   'minify:styles',
-  'minify:assets'
+  'minify:images',
+  'minify:fonts'
 ]);
